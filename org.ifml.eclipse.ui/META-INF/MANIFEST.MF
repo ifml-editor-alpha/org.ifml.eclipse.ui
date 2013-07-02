@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IFML Eclipse UI Library
+Bundle-SymbolicName: org.ifml.eclipse.ui
+Bundle-Version: 0.1.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Web Models s.r.l.
+Require-Bundle: org.eclipse.ui,
+ org.ifml.lib.google.guava,
+ org.eclipse.core.runtime,
+ org.ifml.eclipse.core,
+ org.eclipse.ui.ide,
+ org.eclipse.core.resources,
+ org.ifml.base,
+ org.eclipse.ui.forms,
+ org.eclipse.ui.views.properties.tabbed
+Bundle-Activator: org.ifml.eclipse.ui.CommonUi
+Export-Package: org.ifml.eclipse.ui,
+ org.ifml.eclipse.ui.actions,
+ org.ifml.eclipse.ui.debug,
+ org.ifml.eclipse.ui.dialogs,
+ org.ifml.eclipse.ui.graphics,
+ org.ifml.eclipse.ui.layouts,
+ org.ifml.eclipse.ui.properties,
+ org.ifml.eclipse.ui.viewers,
+ org.ifml.eclipse.ui.widgets,
+ org.ifml.eclipse.ui.wizards
+Bundle-ActivationPolicy: lazy
